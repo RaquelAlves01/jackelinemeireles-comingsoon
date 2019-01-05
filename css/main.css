@@ -1,0 +1,55 @@
+.serif {
+  font-family: 'Lora', serif;
+}
+
+.sans {
+  font-family: 'Lato', sans-serif;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.hero-banner {
+  min-height: 100vh;
+  max-height: 100vh;
+  background-image: linear-gradient(to bottom,rgba(124, 31, 32, .9), rgba(124, 31, 32, .7)), url('../images/architectural-buildings.jpg');
+  background-size: cover;
+}
+
+#img-no-width {
+  width: 80%;
+}
+
+.i-size {
+  min-height: 66px;
+  width: inherit;
+}
+
+.border-div {
+  border-left: 4px solid #fff;
+}
+
+.text-position {
+  left: 0;
+  top: 65%;
+  transform: translateY(-50%);
+}
+
+.grid-top {
+  -webkit-align-items: flex-start;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+@media only screen and (min-width: 38em) {
+  #img-no-width {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  #img-no-width {
+    width: 40%;
+  }
+}
