@@ -17,6 +17,10 @@
   background-size: cover;
 }
 
+.no-link {
+  text-decoration: none;
+}
+
 #img-no-width {
   width: 80%;
 }
