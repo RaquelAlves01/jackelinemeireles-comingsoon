@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .serif {
   font-family: 'Lora', serif;
 }
@@ -11,9 +15,7 @@
 }
 
 .hero-banner {
-  min-height: 100vh;
-  min-width: 25em;
-  max-height: 100vh;
+  height: 100vh;
   background-image: linear-gradient(to bottom,rgba(124, 31, 32, .9), rgba(124, 31, 32, .7)), url('../images/architectural-buildings.jpg');
   background-size: cover;
 }
@@ -23,11 +25,11 @@
 }
 
 #img-no-width {
-  width: 75%;
+  width: 85%;
 }
 
 .add-small {
-  padding: 1.5rem 0;
+  padding: 1.25rem 0;
 }
 
 .i-size {
@@ -59,8 +61,24 @@
   min-width: 800px;
 }
 
+@media only screen and (min-width: 38em) {
+  .hero-banner {
+    min-height: 100vh;
+    min-width: 25em;
+    max-height: 100vh;
+  }
+}
+
 
 @media only screen and (min-width: 50em) {
+
+  #img-no-width {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 56em) {
+
   .m-min-width {
     min-width: inherit;
   }
@@ -70,26 +88,12 @@
   }
 
   #img-no-width {
-    width: 75%;
+    width: 55%;
   }
 }
 
 
 @media only screen and (min-width: 68em) {
-  #img-no-width {
-    width: 65%;
-  }
-}
-
-
-@media only screen and (min-width: 110em) {
-  #img-no-width {
-    width: 45%;
-  }
-}
-
-
-@media only screen and (min-width: 130em) {
   #img-no-width {
     width: 30%;
   }
