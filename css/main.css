@@ -67,6 +67,10 @@ body {
     min-width: 25em;
     max-height: 100vh;
   }
+
+  .image-div {
+    padding: 2.6rem;
+  }
 }
 
 
